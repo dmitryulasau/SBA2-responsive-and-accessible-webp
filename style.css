@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
@@ -5,6 +9,7 @@ html {
 
 body,
 html,
+h1,
 p,
 ul {
   margin: 0;
@@ -64,4 +69,50 @@ body {
 
 .nav__link:hover {
   color: #6a4cff;
+}
+
+/* HERO SECTION */
+
+.hero {
+  min-height: 60vh;
+  padding: 10rem;
+  background: url(./images/hero-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero__title {
+  color: #172033;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 7rem;
+}
+
+.hero__description {
+  padding: 0.5rem 1rem;
+  border-radius: 0.8rem;
+  width: fit-content;
+  background-color: #172033;
+  color: #ffffff;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.cta-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 2rem 4rem;
+  border-radius: 0.8rem;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: #6a4cff;
+  cursor: pointer;
+}
+
+.cta-hero:hover {
+  background-color: rgb(100, 83, 185);
 }
