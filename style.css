@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #172033;
 }
 
 .container {
@@ -50,6 +51,10 @@ body {
   align-items: center;
 }
 
+.nav__logo-image {
+  border-radius: 50%;
+}
+
 .nav__company-name {
   font-size: 3rem;
   font-weight: 700;
@@ -64,7 +69,7 @@ body {
 }
 
 .nav__link {
-  color: #333333;
+  color: #172033;
 }
 
 .nav__link:hover {
@@ -75,7 +80,7 @@ body {
 
 .hero {
   min-height: 60vh;
-  padding: 10rem;
+  padding: 10rem 4rem;
   background: url(./images/hero-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -115,4 +120,23 @@ body {
 
 .cta-hero:hover {
   background-color: rgb(100, 83, 185);
+}
+
+/* FOOTER */
+.footer {
+  padding: 4rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e2a44;
+  color: #ffffff;
+}
+
+.footer__brand {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer__copy {
+  font-size: 1.4rem;
 }
