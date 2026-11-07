@@ -54,6 +54,7 @@ body {
 .nav__wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav__brand {
@@ -314,4 +315,68 @@ textarea {
   top: 1rem;
   outline: 3px solid var(--active);
   outline-offset: 3px;
+}
+
+.btn-menu {
+  display: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 1rem 1rem;
+  box-shadow: none;
+}
+
+@media (max-width: 840px) {
+  .nav__links {
+    display: none;
+  }
+
+  .btn-menu {
+    display: block;
+  }
+
+  .br {
+    display: none;
+  }
+  .contact {
+    flex-direction: column;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__title {
+    text-align: center;
+  }
+  .about__image {
+    order: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .services__wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .nav__company-name {
+    font-size: 1.4rem;
+  }
+
+  .hero__title {
+    font-size: 3.2rem;
+  }
+
+  .hero__description {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+  }
+
+  .contact__form {
+    min-width: 20rem;
+  }
 }

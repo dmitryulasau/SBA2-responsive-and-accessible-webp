@@ -34,16 +34,19 @@
 - Copyright information.
 - LinkedIn link with icon.
 
-### Requirements
+## Reflection Questions
 
-- Semantic HTML.
-- Responsive design.
-- Flexbox for navigation.
-- CSS Grid for service cards.
-- Accessible labels, ARIA attributes, and image alt text.
-- Visible keyboard focus states.
-- Good color contrast.
-- Responsive media queries.
+### 1. What accessibility challenges did you face, and how did you address them?
+
+One challenge was making the website easy to use with a keyboard and screen readers. I used semantic HTML, proper labels, ARIA attributes, and visible focus states.
+
+### 2. How did you ensure that your design was responsive and accessible to all users?
+
+I used Flexbox, CSS Grid, and media queries to make the layout work on different screen sizes. I also focused on readable text, color contrast.
+
+### 3. What tools or resources did you find most helpful during this project?
+
+MDN Web Docs, WebAIM Contrast Checker and Google Search were helpful for learning HTML, CSS, and accessibility best practices.
 
 ## Questions?
 
