@@ -51,7 +51,3 @@ MDN Web Docs, WebAIM Contrast Checker and Google Search were helpful for learnin
 ## Questions?
 
 [Dmitry Ulasau](https://github.com/dmitryulasau)
-
-# LIVE VERSION:
-
-[Dmitry Ulasau](https://github.com/dmitryulasau)
