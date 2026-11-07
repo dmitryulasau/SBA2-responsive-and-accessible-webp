@@ -1,4 +1,4 @@
-# Accessible Design Co. Website Plan
+# Accessible Design Co. Website [LIVE](https://dmitryulasau.github.io/SBA2-responsive-and-accessible-webp/)
 
 ### Sections
 
@@ -49,5 +49,9 @@ I used Flexbox, CSS Grid, and media queries to make the layout work on different
 MDN Web Docs, WebAIM Contrast Checker and Google Search were helpful for learning HTML, CSS, and accessibility best practices.
 
 ## Questions?
+
+[Dmitry Ulasau](https://github.com/dmitryulasau)
+
+# LIVE VERSION:
 
 [Dmitry Ulasau](https://github.com/dmitryulasau)
