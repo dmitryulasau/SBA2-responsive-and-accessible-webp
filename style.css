@@ -296,3 +296,22 @@ textarea {
 .footer__copy {
   font-size: 1.4rem;
 }
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  z-index: 1000;
+
+  padding: 1.2rem 2rem;
+  background-color: var(--footer-bg);
+  color: var(--white);
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.skip-link:focus {
+  top: 1rem;
+  outline: 3px solid var(--active);
+  outline-offset: 3px;
+}
